@@ -5,7 +5,7 @@ class Persona:
         self.__nombre = nombre
         self.__edad = edad
 
-    # Método para mostrar información (acceso a atributos encapsulados)
+    # Metodo para mostrar información (acceso a atributos encapsulados)
     def mostrar_info(self):
         print(f"Nombre: {self.__nombre}, Edad: {self.__edad}")
 
@@ -23,7 +23,7 @@ class Estudiante(Persona):
         super().__init__(nombre, edad)  # Llamamos al constructor de la clase base
         self.carrera = carrera
 
-    # Sobrescribimos el método para demostrar polimorfismo
+    # Sobrescribimos el metodo para demostrar polimorfismo
     def mostrar_info(self):
         print(f"Estudiante de {self.carrera} - Nombre: {self.get_nombre()}")
 
@@ -55,7 +55,7 @@ persona1.set_nombre("Cristhian Rimael")  # Modificamos con setter
 persona1.mostrar_info()
 
 print("\nHerencia y Polimorfismo:")
-# Cada objeto usa su propio método mostrar_info (polimorfismo)
+# Cada objeto usa su propio metodo mostrar_info (polimorfismo)
 presentar_persona(persona1)
 presentar_persona(estudiante1)
 presentar_persona(profesor1)
