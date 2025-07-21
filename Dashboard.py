@@ -33,7 +33,17 @@ def mostrar_menu():
     unidades = {
         '1': 'Unidad 1',
         '2': 'Unidad 2',
-        '3': 'SEMANA 2 TÉCNICAS DE PROGRAMACIÓN'
+        '3': 'SEMANA 2',
+        '4': 'SEMANA 3',
+        '5': 'SEMANA 4',
+        '6': 'SEMANA 5',
+        '7': 'SEMANA 6',
+        '8': 'SEMANA 7',
+        '9': 'SEMANA 8',
+        '10': 'SEMANA 9',
+        '11': 'SEMANA 10',
+        '12': 'SEMANA 11',
+
     }
 
     while True:
