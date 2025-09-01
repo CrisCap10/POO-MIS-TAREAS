@@ -1,0 +1,26 @@
+[
+    {
+        "id": 153,
+        "nombre": "SAVILOE",
+        "cantidad": 120,
+        "precio": 1.1
+    },
+    {
+        "id": 789,
+        "nombre": "coca cola",
+        "cantidad": 100,
+        "precio": 0.5
+    },
+    {
+        "id": 486,
+        "nombre": "Cifrut",
+        "cantidad": 50,
+        "precio": 1.25
+    },
+    {
+        "id": 758,
+        "nombre": "sprite",
+        "cantidad": 75,
+        "precio": 1.0
+    }
+]
